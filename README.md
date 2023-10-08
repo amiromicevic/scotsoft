@@ -1,5 +1,6 @@
 # scotsoft
-Reference material from Scotsoft presentation
+**Reference material from Scotsoft presentation.**
+
 The following lambda files represent simple backend functionality that support the features presented on the demo at ScotSoft 2023.
 
 **Comprehend.py** takes a text paragraph and requests Amazon Comprehend service to run insight analysis on the text and extract the key phrases and return them to the front end.
