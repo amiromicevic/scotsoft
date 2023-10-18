@@ -1,5 +1,6 @@
 # scotsoft
 **Reference material from Scotsoft presentation.**
+This is currently work in progress and more material will be added here in due time.
 
 The following lambda files represent simple backend functionality that support the features presented on the demo at ScotSoft 2023.
 
