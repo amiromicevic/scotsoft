@@ -13,3 +13,10 @@ The following lambda files represent simple backend functionality that support t
 **Sound.js** takes text as input and converts it into sound that is saved to your designated S3 bucket, and is played by the front end via JavaScript that downloads the sound file from the S3 bucket. Lambda function creates a presigned Url that acts as as a temporary permission that allows the authorised users to download the audio file from the bucket. The function uses Amazon Polly service to convert text to sound, and the resulting audio strsam is saved to the designated S3 bucket. The presigned Url is then returned to the front end and it allows user to access and download the saved sound file, and no more than that.
 
 **TextGenAI.py** connects to the provisioned inference end point created by Amazon SageMaker JumpStart and passes the prompt with the instructions for text creation to the foundational model. The generated text is then returned to the front end.
+
+
+# how to create and deploy API Gateway end points
+Content will be added here in due time.
+
+# how to deploy SageMaker JumpStart LLM and obtain endpoint for live inference
+Content will be added here in due time.
